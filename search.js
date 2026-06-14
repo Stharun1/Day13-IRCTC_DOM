@@ -11,7 +11,7 @@ function searchTrains() {
   const results = document.getElementById("results");
 
   if (from === "" || to === "") {
-    errorMsg.innerText = "Please fill both From and To stations.";
+    errorMsg.innerText = "Please fill both From and To stations";
     results.innerHTML = "";
     return;
   }
